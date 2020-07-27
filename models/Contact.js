@@ -3,6 +3,10 @@ const { StringDecoder } = require("string_decoder");
 const { stringify } = require("querystring");
 
 const ContactSchema = mongoose.Schema({
+  name: {
+    type: String,
+    required: true,
+  },
   user: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "users",
