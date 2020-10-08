@@ -7,6 +7,8 @@ node_modules
 /client/.env.development.local
 /client/.env.test.local
 /client/.env.production.local
+.env.local
+.env
 
 
 npm debug.log*
